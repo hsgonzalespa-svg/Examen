@@ -193,3 +193,4 @@ for msg in st.session_state.historial:
         st.chat_message("assistant").write(msg["texto"])
 
 
+
