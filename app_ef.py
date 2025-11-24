@@ -10,9 +10,9 @@ import time
 # CONFIGURACIÓN
 # =======================
 
-GOOGLE_API_KEY = "AIzaSyDPPtTRxxW0761kzPHoREiuv8i0keoc4lY"
-MONGODB_URI = "mongodb+srv://jctovarg_db_user:UP2025@pccluster.sh0ibym.mongodb.net/"
-COHERE_API_KEY = "cqEqbrHoqtyrgxCEPiJoEdB9dECChdDKg9RHerCA"
+GOOGLE_API_KEY = "AIzaSyDZQ_Cc5DAtbACUGxFBLrAmAtnt-l_7s2k"
+MONGODB_URI = "mongodb+srv://hsgonzalespa_db_user:VTJjn1W1wuHT6kQf@clusterhg.7vklfxq.mongodb.net/?appName=ClusterHG"
+COHERE_API_KEY = "KBjLJqLdKK4sO0qfganr6umF1g0XIug5erR2RgGH"
 
 USER = "Juan Carlos Tovar Galarreta"
 
@@ -191,3 +191,4 @@ for msg in st.session_state.historial:
         st.chat_message("user").write(msg["texto"])
     else:
         st.chat_message("assistant").write(msg["texto"])
+
