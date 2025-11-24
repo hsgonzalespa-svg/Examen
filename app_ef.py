@@ -14,7 +14,7 @@ GOOGLE_API_KEY = "AIzaSyDZQ_Cc5DAtbACUGxFBLrAmAtnt-l_7s2k"
 MONGODB_URI = "mongodb+srv://hsgonzalespa_db_user:VTJjn1W1wuHT6kQf@clusterhg.7vklfxq.mongodb.net/?appName=ClusterHG"
 COHERE_API_KEY = "KBjLJqLdKK4sO0qfganr6umF1g0XIug5erR2RgGH"
 
-USER = "Juan Carlos Tovar Galarreta"
+USER = "Hillary Gonzales Pajuelo"
 
 if not GOOGLE_API_KEY or not MONGODB_URI:
     st.error("❌ Faltan las variables de entorno GOOGLE_API_KEY o MONGODB_URI")
@@ -191,4 +191,5 @@ for msg in st.session_state.historial:
         st.chat_message("user").write(msg["texto"])
     else:
         st.chat_message("assistant").write(msg["texto"])
+
 
